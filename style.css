@@ -1,0 +1,32 @@
+/* .bandeau {
+    background: url(daniele-buso-unsplash.jpg) no-repeat center;
+    max-width:100%;
+    height:500px;
+    background-size:100% auto;
+    margin:0;
+    padding:0;
+} */
+
+.bandeau {
+    position:relative;
+}
+
+.bandeau>.accueil {
+    background-color:rgba(255, 255, 255, 0.6);
+    margin:15px;
+    padding:15px;
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+.bandeau>.formulaire {
+    position:absolute;
+    width:100%;
+    bottom:0;
+    left:0;
+}
+
+.formulaire>form>.row>.col{
+    background-color:rgba(255, 255, 255, 0.6);
+}
